@@ -1,1 +1,1 @@
-this is my daily codes
+this is my 1st git repo
