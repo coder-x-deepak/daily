@@ -1,19 +1,27 @@
-stdio.h>
-int main()
-{
-    int a;
-    printf("Enter a positive number:");
-    scanf("%d" ,&a);
+ude <stdio.h>
 
-    if (a % 5  == 0)
-    {
-        printf("the entered number is divisible by 5");
+// int Factorial (int number)
+// {
 
-    }
-    else
-    {
-        printf("the enterd number is not divisible by 5");
-    }
+//     if (number == 1 || number ==0)
+//     {
+//         return 1;
+//     }
 
-return 0;
-}
+//     else
+//     {
+//         return (number * Factorial (number - 1));
+//     }
+// }
+
+// int main()
+// {
+//     int num;
+//     printf("Enter the number you want Factorial of\n"); //error de rhi h pta 
+//     // nii kyu iske bina error nii arha
+//     scanf("%d", &num);  
+
+//     printf("the Factorial of given number %d is %d", num, Factorial(num));  
+
+//     return 0;
+// }
