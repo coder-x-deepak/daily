@@ -12,7 +12,7 @@
 // int main()
 // {
 //      int a;
-//     printf("Enter a number:");
+//     printf("Enter a number:\n");
 //     scanf("%d" ,&a);
 
 //     if (a>=0)
@@ -47,6 +47,7 @@
 //     scanf("%f" , &a);
     
 //     int x = (int)a;
+//     printf("%d",x);
 //     if (x - a == 0)
 //     {
 //         printf("The entered number %f is integer" , a);
@@ -92,7 +93,7 @@
 // int main()
 // {
 //     int a;
-//     printf("Enter a digit  number:");
+//     printf("Enter a  number:");
 //     scanf("%f" , &a);
 
 //     if (a > 99 && a < 1000)

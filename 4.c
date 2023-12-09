@@ -30,8 +30,7 @@
 // int main()
 // {
 //     int num;
-//     printf("Enter the number you want Factorial of\n"); //error de rhi h pta 
-//     // nii kyu iske bina error nii arha
+//     printf("Enter the number you want Factorial of\n"); 
 //     scanf("%d", &num);  
 
 //     printf("the Factorial of given number %d is %d", num, Factorial(num));  
@@ -39,31 +38,74 @@
 //     return 0;
 // }
 
-// factorial of numbers by loops
+// //  factorial of numbers by loops.
 
-#include<stdio.h>
-int main()
-{
-    int num;
-    int factorial = 1 ;
+// #include<stdio.h>
+// int main()
+// {
+//     int num;
+//     int factorial = 1 ;
 
-     printf("Enter the number you want Factorial of\n");
-     scanf("%d", &num);
+//      printf("Enter the number you want Factorial of\n");
+//      scanf("%d", &num);
 
-    for(int i=1; i<=num; i++)
-    {
+//     for(int i=1; i<=num; i++)
+//     {
         
-        factorial = factorial * i;
-    }
-    if(num == 0 ||num ==1)
-    {
-        printf("the factorial of entered number %d is 1", num);
-    }
+//         factorial = factorial * i;
+//     }
+//     if(num == 0 ||num ==1)
+//     {
+//         printf("the factorial of entered number %d is 1", num);
+//     }
 
-    else
-    {
-        printf("the Factorial of given number %d is %d", num, factorial);
-    }
+//     else
+//     {
+//         printf("the Factorial of given number %d is %d", num, factorial);
+//     }
 
-    return 0;
-}
+//     return 0;
+// }  
+
+
+
+
+
+// print number in reverse 
+
+// #include <stdio.h>
+// int main()
+// {
+//     int n, sum = 0 , ld;
+
+//     printf("Enter the number ");
+//     scanf("%d", &n);
+
+//       int a = n;
+      
+
+//     for (int i = 0; i < n; i++)
+//     {
+//        ld = n%10;
+//        n = n/10;
+//        sum = sum + ld;
+
+//     }
+
+//     int reverse =0;
+
+//      printf("sum of given numbr is %d\n",sum);
+
+//      while (a>0)
+//      {
+//          ld = a%10;
+//          a = a/10;
+//         reverse = reverse * 10;
+//         reverse = reverse + ld;
+//      }
+//      printf("the reversed number is %d",reverse);
+     
+//     return 0;
+// }
+
+
