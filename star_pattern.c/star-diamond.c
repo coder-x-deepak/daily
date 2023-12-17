@@ -215,42 +215,71 @@
 //     return 0;
 // // }
 
+// 1 2 3 4 3 2 1 
+// 1 2 3   3 2 1 
+// 1 2       2 1 
+// 1           1 
 // #include <stdio.h>
+
 // int main()
+
 // {
-//     int n;
-//     scanf("%d", &n);
-//     int spaces = 1;
-//     int stars = n;
-//     for (int z = 1; z <=2*n+1; z++)
+
+// int n;
+
+// scanf("%d", &n);
+
+// int spaces = 1;
+
+// int stars = n;
+// for (int a = 1; a <= n+1; a++)
 //     {
-//         printf("%d ",z);
-           
-//     }printf("\n");
-//      for (int i = 1; i <= n; i++)
-//     {int a=1;
-//         for (int j = 1; j <= stars; j++)
-//         {
-//             printf("%d ",j);a++;
-//         }
-//         for (int i = 1; i <= spaces; i++)
-//         {
-//             printf("  ");a--;
-//         }
-//         for (int k = 1; k <= stars; k++)
-//         {
-//            printf("%d ",a);
-//            a--;
-//         }
-        
-//         printf("\n");
-//             spaces+=2;
-//         stars--;
-//         a++;
+//         printf("%d ",a);
 //     }
-    
-//     return 0;
+//     for (int b = n; b >= 1; b--)
+//         {
+//             printf("%d ",b);
+//         }
+//     printf("\n");
+// for (int i = 1; i <= n; i++)
+
+// {
+
+// for (int j = 1; j <= stars; j++)
+
+// {
+
+// printf("%d ",j);
+
 // }
+
+// for (int i = 1; i<=spaces; i++)
+
+// {
+
+// printf("  ");
+
+// }
+
+// for (int k= stars; k >=1; k--)
+
+// {
+
+// printf("%d ",k);
+
+// }
+
+// printf("\n");
+
+// spaces+=2;
+
+// stars--;
+
+// }
+
+// return 0;
+// }
+
 
 // 4 4 4 4 4 4 4 
 // 4 3 3 3 3 3 4 
